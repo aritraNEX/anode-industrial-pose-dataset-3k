@@ -1,1 +1,859 @@
-
+{
+  "frame_id": "manuf_anode_2025_2025_11_29_12_17_04_000000",
+  "sha256": "aea342e2bf2571c08c081fe2dc9b88fbe51e9d75d5a796559dfc72957859efe1",
+  "dataset_version": "anode_industrial_elite_v9.1",
+  "license": "Anode-Enterprise-2025",
+  "timestamp": {
+    "unix": 1764418624.491429,
+    "iso": "2025-11-29T12:17:04.491Z",
+    "nanoseconds": 491428613
+  },
+  "camera": {
+    "model": "Custom_Industrial_XT9",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "intrinsics": {
+      "fx": 1382.135,
+      "fy": 1384.72,
+      "cx": 960.0,
+      "cy": 540.0,
+      "k1": 0.05057,
+      "k2": -0.14479
+    }
+  },
+  "lighting": {
+    "ambient_lux": 1097,
+    "dominant_temperature_k": 6500
+  },
+  "scene_metrics": {
+    "num_objects": 25,
+    "num_defective": 0,
+    "avg_occlusion": 0.5392,
+    "scene_complexity_score": 0.958,
+    "edge_case_flags": [
+      "motion_blur",
+      "partial_occlusions",
+      "high_clutter"
+    ]
+  },
+  "objects": [
+    {
+      "instance_id": 1,
+      "class": "screw",
+      "subclass": "nut_498",
+      "material": "plastic",
+      "mass_kg": 1.561,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        1573,
+        373,
+        1034,
+        371
+      ],
+      "pose_6d": {
+        "translation": [
+          -2.7908,
+          -0.9029,
+          -0.0554
+        ],
+        "rotation_euler_rad": [
+          -0.1893,
+          2.1488,
+          2.2064
+        ]
+      },
+      "occlusion_ratio": 0.3508,
+      "truncated": false,
+      "confidence": 0.708,
+      "cad_model_hash": "73c0006e0530f1717e04ab6899984961"
+    },
+    {
+      "instance_id": 2,
+      "class": "bin",
+      "subclass": "shaft_374",
+      "material": "aluminum",
+      "mass_kg": 1.4769,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        1610,
+        464,
+        1749,
+        406
+      ],
+      "pose_6d": {
+        "translation": [
+          1.0355,
+          2.1371,
+          2.549
+        ],
+        "rotation_euler_rad": [
+          -2.5987,
+          0.2538,
+          -3.0725
+        ]
+      },
+      "occlusion_ratio": 0.4376,
+      "truncated": false,
+      "confidence": 0.9446,
+      "cad_model_hash": "9ded98d5af4a0d3781beb0f4c512f3dc"
+    },
+    {
+      "instance_id": 3,
+      "class": "shaft",
+      "subclass": "bearing_737",
+      "material": "titanium",
+      "mass_kg": 0.5055,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        1212,
+        602,
+        662,
+        688
+      ],
+      "pose_6d": {
+        "translation": [
+          -2.0577,
+          -2.3939,
+          -1.1246
+        ],
+        "rotation_euler_rad": [
+          -2.8402,
+          0.0765,
+          -2.8772
+        ]
+      },
+      "occlusion_ratio": 0.6389,
+      "truncated": false,
+      "confidence": 0.883,
+      "cad_model_hash": "f619a0aadbfe43bc5a7f0ed4501420fa"
+    },
+    {
+      "instance_id": 4,
+      "class": "bolt",
+      "subclass": "defective_part_315",
+      "material": "plastic",
+      "mass_kg": 0.2104,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        392,
+        586,
+        521,
+        201
+      ],
+      "pose_6d": {
+        "translation": [
+          0.0793,
+          -1.9416,
+          2.8908
+        ],
+        "rotation_euler_rad": [
+          -0.1151,
+          0.8413,
+          -2.8781
+        ]
+      },
+      "occlusion_ratio": 0.8142,
+      "truncated": false,
+      "confidence": 0.7645,
+      "cad_model_hash": "45a929aea86fae126f6a2acc00a034ed"
+    },
+    {
+      "instance_id": 5,
+      "class": "bolt",
+      "subclass": "wrench_704",
+      "material": "chrome_steel",
+      "mass_kg": 1.8952,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        1210,
+        790,
+        627,
+        896
+      ],
+      "pose_6d": {
+        "translation": [
+          -1.7235,
+          -1.075,
+          0.4185
+        ],
+        "rotation_euler_rad": [
+          -1.9483,
+          1.2391,
+          -0.7638
+        ]
+      },
+      "occlusion_ratio": 0.1267,
+      "truncated": true,
+      "confidence": 0.7181,
+      "cad_model_hash": "b8890ae7a9763a23a318b20e5631b2bc"
+    },
+    {
+      "instance_id": 6,
+      "class": "shaft",
+      "subclass": "defective_part_348",
+      "material": "brass",
+      "mass_kg": 0.255,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        1468,
+        246,
+        1255,
+        907
+      ],
+      "pose_6d": {
+        "translation": [
+          0.9378,
+          -1.1656,
+          -1.3384
+        ],
+        "rotation_euler_rad": [
+          -0.7988,
+          -0.935,
+          3.0645
+        ]
+      },
+      "occlusion_ratio": 0.7122,
+      "truncated": false,
+      "confidence": 0.9092,
+      "cad_model_hash": "622afb36983407ae1089d8b152071c57"
+    },
+    {
+      "instance_id": 7,
+      "class": "gear",
+      "subclass": "bearing_505",
+      "material": "stainless_304",
+      "mass_kg": 0.1056,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        1024,
+        483,
+        1279,
+        463
+      ],
+      "pose_6d": {
+        "translation": [
+          -2.4044,
+          2.5671,
+          -1.7654
+        ],
+        "rotation_euler_rad": [
+          0.5369,
+          0.1279,
+          -0.3687
+        ]
+      },
+      "occlusion_ratio": 0.7951,
+      "truncated": false,
+      "confidence": 0.8695,
+      "cad_model_hash": "9fc3c6c6675673878b6d4a33b40bed56"
+    },
+    {
+      "instance_id": 8,
+      "class": "wrench",
+      "subclass": "bolt_153",
+      "material": "titanium",
+      "mass_kg": 2.7552,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        657,
+        552,
+        1651,
+        949
+      ],
+      "pose_6d": {
+        "translation": [
+          -1.4363,
+          0.6838,
+          0.4156
+        ],
+        "rotation_euler_rad": [
+          -0.1448,
+          -1.9896,
+          1.2929
+        ]
+      },
+      "occlusion_ratio": 0.6895,
+      "truncated": false,
+      "confidence": 0.7693,
+      "cad_model_hash": "01fb457a0f460f5d03e33812e58d01ba"
+    },
+    {
+      "instance_id": 9,
+      "class": "wrench",
+      "subclass": "defective_part_703",
+      "material": "chrome_steel",
+      "mass_kg": 0.4467,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        229,
+        661,
+        1763,
+        701
+      ],
+      "pose_6d": {
+        "translation": [
+          0.7328,
+          -2.6304,
+          -2.3448
+        ],
+        "rotation_euler_rad": [
+          1.0938,
+          0.506,
+          -0.084
+        ]
+      },
+      "occlusion_ratio": 0.5084,
+      "truncated": false,
+      "confidence": 0.9268,
+      "cad_model_hash": "69e27690e5e4a5f2c79cc7231ef3a5bc"
+    },
+    {
+      "instance_id": 10,
+      "class": "bin",
+      "subclass": "defective_part_613",
+      "material": "brass",
+      "mass_kg": 1.2491,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        1189,
+        613,
+        451,
+        522
+      ],
+      "pose_6d": {
+        "translation": [
+          1.9135,
+          1.269,
+          -1.3215
+        ],
+        "rotation_euler_rad": [
+          1.4418,
+          -1.4541,
+          3.0261
+        ]
+      },
+      "occlusion_ratio": 0.4315,
+      "truncated": false,
+      "confidence": 0.9299,
+      "cad_model_hash": "429c18bba616cfab59af73720f7e3897"
+    },
+    {
+      "instance_id": 11,
+      "class": "bolt",
+      "subclass": "wrench_324",
+      "material": "titanium",
+      "mass_kg": 1.3426,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        491,
+        811,
+        363,
+        624
+      ],
+      "pose_6d": {
+        "translation": [
+          -1.4808,
+          1.9087,
+          -0.5175
+        ],
+        "rotation_euler_rad": [
+          -3.0675,
+          -1.5556,
+          0.3963
+        ]
+      },
+      "occlusion_ratio": 0.6724,
+      "truncated": false,
+      "confidence": 0.9742,
+      "cad_model_hash": "9ccb7e36cf4e0f3c60c3d7e7366d4db6"
+    },
+    {
+      "instance_id": 12,
+      "class": "screw",
+      "subclass": "bearing_888",
+      "material": "stainless_304",
+      "mass_kg": 0.1876,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        368,
+        580,
+        1718,
+        655
+      ],
+      "pose_6d": {
+        "translation": [
+          0.5812,
+          -1.8287,
+          -0.9956
+        ],
+        "rotation_euler_rad": [
+          2.7321,
+          -2.175,
+          -2.934
+        ]
+      },
+      "occlusion_ratio": 0.4681,
+      "truncated": false,
+      "confidence": 0.7973,
+      "cad_model_hash": "bafa6031d524e2530a7154e59611f13a"
+    },
+    {
+      "instance_id": 13,
+      "class": "defective_part",
+      "subclass": "screw_928",
+      "material": "steel",
+      "mass_kg": 2.4629,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        923,
+        355,
+        1191,
+        333
+      ],
+      "pose_6d": {
+        "translation": [
+          -0.2646,
+          -1.193,
+          1.6475
+        ],
+        "rotation_euler_rad": [
+          0.3523,
+          -1.2067,
+          0.0775
+        ]
+      },
+      "occlusion_ratio": 0.6241,
+      "truncated": false,
+      "confidence": 0.8559,
+      "cad_model_hash": "49fb0e9fe57efe4bba00e0bc941955b3"
+    },
+    {
+      "instance_id": 14,
+      "class": "shaft",
+      "subclass": "bolt_878",
+      "material": "titanium",
+      "mass_kg": 1.6096,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        1087,
+        487,
+        935,
+        855
+      ],
+      "pose_6d": {
+        "translation": [
+          -0.1666,
+          1.7069,
+          0.8078
+        ],
+        "rotation_euler_rad": [
+          -2.5922,
+          -3.0204,
+          -2.691
+        ]
+      },
+      "occlusion_ratio": 0.2357,
+      "truncated": false,
+      "confidence": 0.8941,
+      "cad_model_hash": "f10de3602c8d0dd764ad08e390f425d6"
+    },
+    {
+      "instance_id": 15,
+      "class": "defective_part",
+      "subclass": "gear_985",
+      "material": "stainless_304",
+      "mass_kg": 2.3628,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        367,
+        514,
+        1230,
+        156
+      ],
+      "pose_6d": {
+        "translation": [
+          1.3261,
+          2.6394,
+          -0.5782
+        ],
+        "rotation_euler_rad": [
+          -2.1769,
+          -1.6916,
+          -0.8937
+        ]
+      },
+      "occlusion_ratio": 0.6178,
+      "truncated": false,
+      "confidence": 0.9319,
+      "cad_model_hash": "f0ad2a60b139fa68b948a27f3437833b"
+    },
+    {
+      "instance_id": 16,
+      "class": "nut",
+      "subclass": "gear_403",
+      "material": "steel",
+      "mass_kg": 1.814,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        213,
+        62,
+        739,
+        604
+      ],
+      "pose_6d": {
+        "translation": [
+          2.5904,
+          -2.4508,
+          -0.2654
+        ],
+        "rotation_euler_rad": [
+          -1.3835,
+          0.9408,
+          0.1356
+        ]
+      },
+      "occlusion_ratio": 0.1779,
+      "truncated": false,
+      "confidence": 0.7531,
+      "cad_model_hash": "24039b8e8d0776183797db38e6482f92"
+    },
+    {
+      "instance_id": 17,
+      "class": "pcb",
+      "subclass": "pcb_386",
+      "material": "plastic",
+      "mass_kg": 0.362,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        1149,
+        337,
+        451,
+        242
+      ],
+      "pose_6d": {
+        "translation": [
+          -0.6846,
+          -2.6636,
+          -0.0306
+        ],
+        "rotation_euler_rad": [
+          0.9975,
+          -0.6507,
+          1.6368
+        ]
+      },
+      "occlusion_ratio": 0.7567,
+      "truncated": false,
+      "confidence": 0.9026,
+      "cad_model_hash": "84fa3ee695b408c56c17bdeb60f2f1d5"
+    },
+    {
+      "instance_id": 18,
+      "class": "bearing",
+      "subclass": "gear_110",
+      "material": "titanium",
+      "mass_kg": 1.347,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        522,
+        873,
+        955,
+        327
+      ],
+      "pose_6d": {
+        "translation": [
+          -0.7271,
+          -0.2143,
+          2.9395
+        ],
+        "rotation_euler_rad": [
+          -1.3724,
+          1.3804,
+          2.6542
+        ]
+      },
+      "occlusion_ratio": 0.4224,
+      "truncated": true,
+      "confidence": 0.871,
+      "cad_model_hash": "faa275b5bc894870e0a4f2c0b963a6b4"
+    },
+    {
+      "instance_id": 19,
+      "class": "wrench",
+      "subclass": "defective_part_499",
+      "material": "brass",
+      "mass_kg": 2.3017,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        1446,
+        777,
+        254,
+        963
+      ],
+      "pose_6d": {
+        "translation": [
+          -1.5998,
+          1.015,
+          0.1422
+        ],
+        "rotation_euler_rad": [
+          -3.1172,
+          -1.1812,
+          -2.3162
+        ]
+      },
+      "occlusion_ratio": 0.6703,
+      "truncated": false,
+      "confidence": 0.8401,
+      "cad_model_hash": "c5a8dd1990dfb6b1a7f4658ababa2701"
+    },
+    {
+      "instance_id": 20,
+      "class": "shaft",
+      "subclass": "wrench_728",
+      "material": "chrome_steel",
+      "mass_kg": 0.5818,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        900,
+        268,
+        1809,
+        1063
+      ],
+      "pose_6d": {
+        "translation": [
+          0.5641,
+          -0.5909,
+          -0.1348
+        ],
+        "rotation_euler_rad": [
+          1.8229,
+          -0.9272,
+          0.3488
+        ]
+      },
+      "occlusion_ratio": 0.6846,
+      "truncated": false,
+      "confidence": 0.7452,
+      "cad_model_hash": "9228d83bd1b0526c062e629764787fe8"
+    },
+    {
+      "instance_id": 21,
+      "class": "wrench",
+      "subclass": "nut_815",
+      "material": "aluminum",
+      "mass_kg": 1.176,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        1598,
+        123,
+        1184,
+        1056
+      ],
+      "pose_6d": {
+        "translation": [
+          -0.633,
+          2.6023,
+          1.3264
+        ],
+        "rotation_euler_rad": [
+          0.1522,
+          -1.6792,
+          2.4367
+        ]
+      },
+      "occlusion_ratio": 0.7724,
+      "truncated": false,
+      "confidence": 0.7602,
+      "cad_model_hash": "a45110ecf8ba2ce01e03ee6869f9ce63"
+    },
+    {
+      "instance_id": 22,
+      "class": "bin",
+      "subclass": "defective_part_373",
+      "material": "stainless_304",
+      "mass_kg": 0.4509,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        1210,
+        869,
+        1795,
+        716
+      ],
+      "pose_6d": {
+        "translation": [
+          -0.875,
+          2.1143,
+          2.5304
+        ],
+        "rotation_euler_rad": [
+          3.133,
+          0.7753,
+          1.1136
+        ]
+      },
+      "occlusion_ratio": 0.7346,
+      "truncated": false,
+      "confidence": 0.8508,
+      "cad_model_hash": "b8b6e55ef36a545c444069a740dbd0e8"
+    },
+    {
+      "instance_id": 23,
+      "class": "defective_part",
+      "subclass": "bearing_735",
+      "material": "chrome_steel",
+      "mass_kg": 0.2483,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        1083,
+        691,
+        373,
+        386
+      ],
+      "pose_6d": {
+        "translation": [
+          2.115,
+          -2.3892,
+          2.6402
+        ],
+        "rotation_euler_rad": [
+          -0.991,
+          -2.3673,
+          3.1223
+        ]
+      },
+      "occlusion_ratio": 0.2265,
+      "truncated": false,
+      "confidence": 0.9089,
+      "cad_model_hash": "e875453d9690ce1f0c5c012bf1c8b90e"
+    },
+    {
+      "instance_id": 24,
+      "class": "pcb",
+      "subclass": "bin_366",
+      "material": "steel",
+      "mass_kg": 0.8753,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        555,
+        66,
+        595,
+        1037
+      ],
+      "pose_6d": {
+        "translation": [
+          -0.2808,
+          -1.9435,
+          1.4389
+        ],
+        "rotation_euler_rad": [
+          -1.7856,
+          -0.1211,
+          1.3717
+        ]
+      },
+      "occlusion_ratio": 0.7266,
+      "truncated": false,
+      "confidence": 0.799,
+      "cad_model_hash": "5943fb6c17b5ddf11a19c5584b2719c5"
+    },
+    {
+      "instance_id": 25,
+      "class": "bearing",
+      "subclass": "wrench_624",
+      "material": "plastic",
+      "mass_kg": 1.4074,
+      "defect": null,
+      "defect_severity": null,
+      "defect_size_mm": null,
+      "bbox_2d_tight": [
+        282,
+        291,
+        293,
+        575
+      ],
+      "pose_6d": {
+        "translation": [
+          1.9594,
+          -1.195,
+          -2.849
+        ],
+        "rotation_euler_rad": [
+          1.5995,
+          -2.1731,
+          0.693
+        ]
+      },
+      "occlusion_ratio": 0.1848,
+      "truncated": true,
+      "confidence": 0.9406,
+      "cad_model_hash": "ea95d070db0e6f207c5fde384914274a"
+    }
+  ],
+  "quality_metrics": {
+    "js_divergence_vs_real": 0.006329,
+    "pose_error_mean_deg": 0.217,
+    "differential_privacy_epsilon": 1.1
+  },
+  "labels": {
+    "has_defect": false,
+    "application_tags": [
+      "6d_pose_estimation",
+      "defect_detection",
+      "bin_picking",
+      "quality_inspection"
+    ],
+    "synthetic_only": true,
+    "real_data_used": false
+  }
+    }
